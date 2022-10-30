@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserCard should render without throwing an error 1`] = `
+<div
+  className="userCard"
+>
+  <div
+    className="imgBlock"
+  >
+    <img
+      src="src"
+    />
+  </div>
+  <div
+    className="infoBlock"
+  >
+    <h2>
+      Name
+    </h2>
+    <p>
+      20
+       repositories
+    </p>
+  </div>
+</div>
+`;

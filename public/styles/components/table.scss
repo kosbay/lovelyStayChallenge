@@ -1,0 +1,43 @@
+.plainTable {
+  border-collapse: collapse;
+  width: 100%;
+
+  th, td {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid $divider;
+    font-weight: 400;
+  }
+
+  th {
+    color: $lighterBlack;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  td {
+    font-size: 14px;
+    font-weight: 400;
+
+    img {
+      border-radius: 12px;
+      width: 30px;
+      height: 30px;
+      vertical-align: middle;
+    }
+  }
+
+  tr {
+    &:hover {
+      background-color: $background;
+    }
+
+    &.active {
+      background-color: $background;
+    }
+  }
+
+  .clickable {
+    cursor: pointer;
+  }
+}

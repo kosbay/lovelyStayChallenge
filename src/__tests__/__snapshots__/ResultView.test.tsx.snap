@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResultView should render error case with message 1`] = `
+<div
+  className="resultView"
+>
+  <img
+    src="/images/error-icon.svg"
+  />
+  <p>
+    Some Error
+  </p>
+</div>
+`;
+
+exports[`ResultView should render initial state case 1`] = `
+<div
+  className="resultView"
+>
+  <img
+    src="/images/result-view-icon.svg"
+  />
+  <p>
+    Result will be here
+  </p>
+</div>
+`;
+
+exports[`ResultView should render not found case 1`] = `
+<div
+  className="resultView"
+>
+  <img
+    src="/images/not-found-icon.svg"
+  />
+  <p>
+    Result not found
+  </p>
+</div>
+`;

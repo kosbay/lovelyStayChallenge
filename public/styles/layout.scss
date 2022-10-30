@@ -1,0 +1,21 @@
+.filterBlock {
+  background-color: $background;
+  padding: 12px;
+  border-radius: 12px;
+  margin: 24px auto;
+  display: flex;
+  align-items: center;
+
+  .elements {
+    margin-right: 16px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &.datePicker {
+      width: 150px;
+      cursor: pointer;
+    }
+  }
+}

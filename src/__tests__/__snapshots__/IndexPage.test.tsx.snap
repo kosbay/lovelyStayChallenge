@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index should render without throwing an error 1`] = `
+<div
+  className="indexContainer"
+>
+  <h1>
+    Find your friend on Github
+  </h1>
+  <form
+    className="filterBlock"
+    onSubmit={[Function]}
+  >
+    <input
+      className="elements"
+      name="username"
+      onChange={[Function]}
+      placeholder="Search users from Github"
+      value=""
+    />
+    <select
+      className="selectInput elements"
+      onChange={[Function]}
+      value="repositories"
+    >
+      <option
+        value="repositories"
+      >
+        Most repositories
+      </option>
+      <option
+        value="followers"
+      >
+        Most followers
+      </option>
+      <option
+        value="joined"
+      >
+        First joined
+      </option>
+    </select>
+    <button
+      className="elements"
+      disabled={true}
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
+  <div
+    className="resultView"
+  >
+    <img
+      src="/images/result-view-icon.svg"
+    />
+    <p>
+      Result will be here
+    </p>
+  </div>
+</div>
+`;

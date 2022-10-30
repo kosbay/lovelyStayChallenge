@@ -1,0 +1,19 @@
+.userCard {
+  display: flex;
+}
+
+.imgBlock {
+  img {
+    border-radius: 12px;
+    width: 120px;
+    height: 120px;
+  }
+}
+
+.infoBlock {
+  margin-left: 16px;
+
+  p {
+    color: $darkBack;
+  }
+}

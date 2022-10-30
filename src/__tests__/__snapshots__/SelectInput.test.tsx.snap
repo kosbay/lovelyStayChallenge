@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectInput should render without throwing an error 1`] = `
+<select
+  className="selectInput "
+>
+  <option
+    value="repositories"
+  >
+    Most repositories
+  </option>
+  <option
+    value="followers"
+  >
+    Most followers
+  </option>
+  <option
+    value="joined"
+  >
+    First joined
+  </option>
+</select>
+`;

@@ -1,0 +1,81 @@
+body {
+  position: relative;
+  box-sizing: border-box;
+  font-family: 'Inter';
+  font-size: 14px;
+  line-height: 1.6;
+  width: 100%;
+  padding: 20px;
+  max-width: 624px;
+  margin: auto;
+}
+
+p, h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  transition: border 0.3s;
+  background: $white;
+  border: 1px solid $divider;
+  border-radius: 12px;
+  outline: none;
+  color: $black;
+  font-family: "Inter";
+  height: 18px;
+
+  &::placeholder {
+    color: $darkBack;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Inter";
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+  -moz-appearance:textfield; /* Firefox */
+}
+
+button {
+  height: 36px;
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: $black;
+  color: $white;
+  border: none;
+  padding: 8px 12px;
+  line-height: 1;
+  font-weight: 400;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+
+  p {
+    color: $white;
+  }
+
+  .img {
+    width: 16px;
+    margin-left: 8px;
+  }
+
+  &:disabled {
+    background-color: $secondaryBlack;
+    cursor: not-allowed;
+  }
+
+  &:hover {
+    background-color: $lightBlack
+  }
+}

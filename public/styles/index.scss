@@ -1,0 +1,14 @@
+@import './vars.scss';
+@import './layout.scss';
+@import './common.scss';
+
+//components
+@import './components/pagination.scss';
+@import './components/table.scss';
+@import './components/resultView.scss';
+@import './components/selectInput.scss';
+@import './components//userCard.scss';
+
+//pages
+@import './pages/index.scss';
+@import './pages/users.scss';
